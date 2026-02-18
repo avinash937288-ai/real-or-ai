@@ -1,0 +1,7 @@
+{
+  "name": "Real or AI? - Forensic Image Checker",
+  "description": "A high-performance tool that leverages Gemini 3 Vision to detect AI-generated artifacts and determine if an image is real or synthetic.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
