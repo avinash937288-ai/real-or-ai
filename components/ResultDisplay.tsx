@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { AnalysisResult, AuthenticityType } from '../types';
+import { AnalysisResult, AuthenticityType } from '../types.ts';
 
 interface Props {
   result: AnalysisResult;

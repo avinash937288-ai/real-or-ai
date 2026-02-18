@@ -1,9 +1,9 @@
 
 import React, { useState, useCallback, useRef } from 'react';
-import Layout from './components/Layout';
-import ResultDisplay from './components/ResultDisplay';
-import { analyzeImageAuthenticity } from './services/gemini';
-import { AnalysisResult, ImagePreview } from './types';
+import Layout from './components/Layout.tsx';
+import ResultDisplay from './components/ResultDisplay.tsx';
+import { analyzeImageAuthenticity } from './services/gemini.ts';
+import { AnalysisResult, ImagePreview } from './types.ts';
 
 interface HistoryItem {
   id: string;

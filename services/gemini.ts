@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { AnalysisResult } from "../types";
+import { AnalysisResult } from "../types.ts";
 
 // Using the Flash model for maximum speed and lowest latency
 const MODEL_NAME = 'gemini-3-flash-preview';
